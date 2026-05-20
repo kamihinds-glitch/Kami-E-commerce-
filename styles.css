@@ -150,6 +150,16 @@ z-index: 2;
     margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-cursor {
+    cursor: not-allowed;
+}
+
 /* 
 
 HIGHLIGHTS 
@@ -290,3 +300,14 @@ book__ratings {
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+/* 
+
+EXPLORE 
+
+*/
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
